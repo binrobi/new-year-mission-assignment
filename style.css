@@ -2,6 +2,7 @@
   margin: 0px;  
   padding: 0px;
   box-sizing: border-box;
+ 
 }
 
 .section-container {
@@ -9,8 +10,8 @@
 }
 
 .banner-1 {
-  font-family: Merriweather;
-  height: 600px;
+min-height: 600px;
+  font-family:" Merriweather";
   display: flex;
   justify-content: center;
   text-align: center;
@@ -26,20 +27,19 @@
 .banner-img-1{
   position: absolute;
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: 100%; 
   border-radius: 10px;
   z-index: -5;
 }
 .happy{
   color: #FFF;
-  font-family: Merriweather;
+  font-family: "Merriweather";
   font-size: 32px;
   font-weight: 400;
 }
 .new-year{
   color: #FFF;
-font-family: Merriweather;
+font-family: "Merriweather";
 font-size: 72px;
 font-weight: 900;
 line-height: 95px; /* 131.944% */
@@ -47,4 +47,55 @@ line-height: 95px; /* 131.944% */
 }
 .new-year span{
   display: block;
+}
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.off{
+  color: #F00;
+font-size: 88px;
+font-weight: 700;
+}
+.holyday{
+  color: #F00;
+font-size: 24px;
+font-weight: 500;
+}
+.categories{
+  color: #070211;
+font-size: 48px;
+font-weight: 700;
+}
+.section-3{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.section-3-container{
+  position: relative;
+  height: 600px;
+
+}
+.text{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -10;
+}
+.frame{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -5;
+  margin: 0;
+  padding: 0;
+}
+.section-3-container{
+  /* display: flex; */
+ justify-content: center;
+ align-items: center;
 }
