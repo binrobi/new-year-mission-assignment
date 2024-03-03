@@ -1,0 +1,50 @@
+*{
+  margin: 0px;  
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.section-container {
+  margin: 0 30px;
+}
+
+.banner-1 {
+  font-family: Merriweather;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  color: #fff;
+  position: relative;
+  background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+
+.section-1 {
+  margin-bottom: 70px;
+}
+.banner-img-1{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  z-index: -5;
+}
+.happy{
+  color: #FFF;
+  font-family: Merriweather;
+  font-size: 32px;
+  font-weight: 400;
+}
+.new-year{
+  color: #FFF;
+font-family: Merriweather;
+font-size: 72px;
+font-weight: 900;
+line-height: 95px; /* 131.944% */
+
+}
+.new-year span{
+  display: block;
+}
