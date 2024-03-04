@@ -2,7 +2,7 @@
   margin: 0px;  
   padding: 0px;
   box-sizing: border-box;
- 
+
 }
 
 .section-container {
@@ -13,9 +13,9 @@
 min-height: 600px;
   font-family:" Merriweather";
   display: flex;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  flex-direction: column;
   color: #fff;
   position: relative;
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
@@ -80,22 +80,58 @@ font-weight: 700;
   height: 600px;
 
 }
-.text{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -10;
-}
-.frame{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  z-index: -5;
-  margin: 0;
-  padding: 0;
-}
-.section-3-container{
-  /* display: flex; */
+ 
+.section-3{
+  display: flex;
+  flex-direction: column;
  justify-content: center;
  align-items: center;
+ background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+
+}
+.section-3-img{
+  position: absolute;
+border-radius: 10px;
+z-index: -5;
+width: 98%;
+height:42%;
+}
+.section-3-welcome{
+  color: #FFF;
+font-family: 'Merriweather';
+font-size: 64px;
+font-weight: 900;
+line-height: 88px; /* 137.5% */
+letter-spacing: 7.04px;
+}
+.section-3-dolor{
+  color: rgba(255, 255, 255, 0.80);
+font-family: "Inter";
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin-top: 24px;
+margin-bottom: 48px;
+}
+.section-3-container{
+  display: flex;
+  
+}
+.section-3-welcome span{
+  display: block;
+  justify-content: space-between;
+}
+.section-3-button{
+  color: #FFF;
+text-align: center;
+font-family: "Inter";
+font-size: 20px;
+font-weight: 700;
+text-transform: uppercase;
+}
+.text{
+  padding: 126px 200px 166px 126px;
+}
+.frame{
+  margin: 68px 14px 68px 40px;
 }
