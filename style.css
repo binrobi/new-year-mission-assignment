@@ -55,7 +55,7 @@ line-height: 95px; /* 131.944% */
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+  margin: 120px 0px;
 }
 
 .off{
@@ -93,7 +93,7 @@ font-weight: 700;
  position: relative;
  background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%) ;
  border-radius: 10px;
-
+margin: 120px 0px;
 }
 .section-3-img{
   position: absolute;
@@ -145,11 +145,13 @@ border:0px;
 .frame{
   margin: 100px 150px 68px 0px;
 }
+
 .section-4{
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;
+margin: 120px 0px;
 }
 .section-4  span{
   color: #F00;
@@ -181,13 +183,14 @@ font-family: "Inter";
 font-size: 20px;
 font-weight: 700;
 text-transform: uppercase;
+margin-top:50px ;
 }
 .section-5{
   margin-top: 100px;
 }
 .section-5-container{
   display: flex;
- 
+ margin: 230px 0px 120px 0px;
 }
 .NEW-BEST-OFFER{
   color: #F00;
@@ -222,7 +225,7 @@ width:420px;
 height: 420px;
 border: 15px solid #F00;
 border-radius: 400px;
-margin-right: 200px;
+margin-right: 100px;
 }
 .year{
   color: #F00;
@@ -236,8 +239,77 @@ font-family: "Inter";
 font-size: 20px;
 font-weight: 400;
 line-height: 32px; /* 160% */
+width: 300px;
+}
+
+.section-6-container{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+.section-6 h3{
+  color: #070211;
+font-family: "Inter";
+font-size: 24px;
+font-weight: 500;
+}
+
+.section-6 h2  span{
+  color: #F00;
+text-align: center;
+font-family: "Merriweather";
+font-size: 72px;
+font-weight: 900;
+}
+
+.section-6 h2{
+  color: #070211;
+font-family: "Merriweather";
+font-weight: 900;
+font-size: 72px;
+font-weight: 900;
+}
+
+.section-6 p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: "Inter";
+font-size: 20px;
+font-weight: 500;
+line-height: 32px; /* 160% */
+}
+.section-6-sec2{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.section-6-position{
+  width: 70%;
 
 }
-.year-amet{
-margin-right: 100px;
+.section-6-sec2-container{
+  display: flex;
+}
+.woman-bag{
+  width: 100%;
+  height: 100%;
+}
+.boom-box{
+  position:absolute ;
+  width: 55%;
+  height: auto;
+  object-fit: cover;
+  top: 8%;
+  left: 5%;
+  
+}
+.section-6-pic{
+  position: relative;
+}
+.discount{
+  position: absolute;
+  top: 25%;
+  left: -24%;
+  height: 50%;
+  width: 50%; 
 }
