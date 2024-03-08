@@ -304,6 +304,9 @@ line-height: 32px; /* 160% */
   left: 5%;
   
 }
+.section-7{
+  margin-top: 50px;
+}
 .section-6-pic{
   position: relative;
 }
@@ -349,4 +352,83 @@ font-family: "Inter";
 font-size: 20px;
 font-weight: 400;
 line-height: 32px; /* 160% */
+}
+.section-8-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 616px;
+  margin-top: 120px;
+}
+ .section-8-container img{
+  width: 150px;
+height: 150px;
+margin-left:600px;
+margin-bottom: 50px;
+}
+.section-8-container h3{
+  color: #070211;
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+
+.section-8-container p{
+  color: rgba(7, 2, 17, 0.60);
+font-family: "Inter";
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; /* 160% */
+}
+
+  .section-8-form{
+    display: inline-block;
+  position: relative;
+  margin:70px;
+}
+  input[type="text"]{
+    width: 648px;
+height: 72px;
+flex-shrink: 0;
+border-radius: 50px 0px 0px 50px;
+background: #FFF;
+padding: 15px;
+  border: none;
+  font-size: 150%;
+  }
+
+  button[type="submit"] {
+    width: 210px;
+    height: 72px;
+    flex-shrink: 0;
+    border-radius: 0px 50px 50px 0px;
+    background: #f00;
+    position: absolute;
+    cursor: pointer;
+  
+    padding: 15px;
+    border: none;
+    color: white;
+  }
+  .form-text{
+    color: rgba(7, 2, 17, 0.30);
+font-family: "Inter";
+font-size: 18px;
+font-weight: 400;
+  }
+.sec-8-button{
+  color: #FFF;
+font-family: "Inter";
+font-size: 20px;
+font-weight: 600;
+text-transform: capitalize;
+}
+.section-8-form{
+  margin-right: 260px;
+ 
 }
