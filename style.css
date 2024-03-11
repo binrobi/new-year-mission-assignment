@@ -70,8 +70,10 @@
 
 .off {
   color: #F00;
+  font-family: "Inter";
   font-size: 88px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .holyday {
@@ -225,10 +227,12 @@
 .section-4 button:hover {
   scale: 0.98;
 }
-.Place{
+
+.Place {
   margin-left: 100px;
 }
-.Date{
+
+.Date {
   margin-left: 45px;
 
 }
@@ -514,4 +518,90 @@ button[type="submit"] {
 .section-8-form {
   margin-right: 260px;
 
+}
+
+footer {
+  height: 609px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #070211;
+  margin-top: 100px;
+}
+
+
+.footer-icon li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-container p {
+  color: #FFF;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  /* 166.667% */
+}
+
+.footer-icon p {
+  padding: 5px;
+
+}
+
+
+ .footer-icon ul {
+  list-style: none;
+  
+ } 
+ .a-img ul{
+  list-style: none;
+} 
+.footer-container {
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.a-img ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a-img ul li {
+  margin-left: 10px;
+
+}
+
+.icons {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.rights {
+  display: flex;
+  justify-content: space-around;
+  color: #FFF;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.h-line {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 5px;
+  margin: 30px 0;
+}
+
+.h-line div {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  height: 1px;
+  width: 66%;
 }
