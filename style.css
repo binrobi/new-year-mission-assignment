@@ -80,12 +80,14 @@
   color: #F00;
   font-size: 24px;
   font-weight: 500;
+  font-family: "Inter";
 }
 
 .categories {
   color: #070211;
   font-size: 48px;
   font-weight: 700;
+  font-family: "Inter";
 }
 
 .section-3 {
@@ -130,6 +132,7 @@
   line-height: 88px;
   /* 137.5% */
   letter-spacing: 7.04px;
+  margin-top: 85px;
 }
 
 .section-3-dolor {
@@ -271,18 +274,19 @@
   /* 160% */
 
 }
-
-.section-5-img {
-
-  width: 364.844px;
+ .img-op {
+  width: 364.844px; 
   height: 364.844px;
-  border-radius: 364.844px;
-  flex-shrink: 0;
+  border-radius: 364.844px; 
+ 
+}
+  .section-5-img {
+    flex-shrink: 0;
   text-align: center;
   width: 420px;
-  height: 420px;
-  border: 15px solid #F00;
-  border-radius: 400px;
+  height: 400px;
+  border: 13px solid #F00;
+  border-radius: 430px;
   margin-right: 100px;
 }
 
@@ -291,6 +295,7 @@
   font-family: "Inter";
   font-size: 48px;
   font-weight: 700;
+  margin-bottom: 30px;
 }
 
 .amet {
@@ -301,6 +306,7 @@
   line-height: 32px;
   /* 160% */
   width: 300px;
+  margin-bottom: 70px;
 }
 
 .section-6-container {
@@ -587,9 +593,8 @@ footer {
   color: #FFF;
   font-family: "Inter";
   font-size: 24px;
-  font-style: normal;
   font-weight: 500;
-  line-height: normal;
+  margin-right: 10px;
 }
 
 .h-line {
